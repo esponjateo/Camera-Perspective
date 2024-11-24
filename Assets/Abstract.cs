@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Abstract : MonoBehaviour
+public abstract class Abstract : MonoBehaviour
 {
     [SerializeField] protected Camera playerCamera;
     [SerializeField] protected float walkSpeed;

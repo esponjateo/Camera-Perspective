@@ -31,13 +31,13 @@ public class CameraChange : MonoBehaviour
 
         if (CamMode == 0)
         {
-            FirstCam.SetActive(true);
-            Thirdcam.SetActive(false);
+            FirstCam.SetActive(false);
+            Thirdcam.SetActive(true);
         }
         else if (CamMode == 1)
         {
-            FirstCam.SetActive(false);
-            Thirdcam.SetActive(true);
+            FirstCam.SetActive(true);
+            Thirdcam.SetActive(false);
         }
     }
 }
